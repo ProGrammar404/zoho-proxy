@@ -15,7 +15,7 @@ app.post('/', async (req, res) => {
 
     try {
         const sfResponse = await axios.post(
-            'https://data-enterprise-7633-jinaprod.sandbox.my.site.com/services/apexrest/zoho/desk/webhook',
+            'https://data-enterprise-7633--jinaprod.sandbox.my.salesforce-sites.com/services/apexrest/zoho/desk/webhook',
             req.body,
             { headers: { "Content-Type": "application/json" } }
         );
